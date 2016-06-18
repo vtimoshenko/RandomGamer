@@ -12,7 +12,7 @@ public class randomGamer implements playerSPS {
     @Override
     public int fight() {
         Random rand = new Random();
-        int st = rand.nextInt(2);
+        int st = rand.nextInt(3);
         switch (st) {
             case 0:
                 return gameSPS.PAPER;
